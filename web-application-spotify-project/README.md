@@ -17,7 +17,7 @@ This app doesn't store any data on third party servers, whole app is completely 
 After cloning this repository in your terminal, enter the commands 
 
 ```bash
-  cd waf_ss2022_xweiss3
+  cd web-application-spotify-project 
   npm install
 ```
 
