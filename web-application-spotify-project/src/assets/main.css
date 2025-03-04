@@ -1,0 +1,25 @@
+.relative {
+  position: relative;
+}
+
+.custom-arrow-positions .v-slide-group__prev {
+  position: absolute;
+  top: 10px;
+  right: 4rem;
+}
+.custom-arrow-positions .v-slide-group__next {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+@media (max-width: 386px) {
+  .custom-arrow-positions .v-slide-group__next,
+  .custom-arrow-positions .v-slide-group__prev {
+    display: none;
+  }
+}
+
+.v-toolbar-items {
+  display: flex;
+}
